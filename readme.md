@@ -1,12 +1,12 @@
-# Real time chat in Javascript with socket.io
+# Real time chat in Javascript
 
 We are going to make a real time chat with Javascript in this free workshop. You will learn websockets and the basics of Node.js.
 
 You will receive a basic Node.js template and we will follow the project from there. We will then implement the front-end with simple CSS+HTML, and finally we will add the real time functionality with javascript, socket.io and jQuery.
 
+Thanks to Hiroaki Yasutomo for hosting this event at SHIFTBRAIN Inc. He also organizes these awesome weekly programming meetups: https://www.meetup.com/i-teach-you-programming-so-you-teach-me-english/
 
-
-Francisco Presencia has done this and similar workshops all around the world following his passion of teaching people. He is an avid developer who has made many different kind of projects using all kind of technologies, check out his webpage: https://francisco.io/
+Francisco Presencia has done this and similar workshops all around the world following his passion of teaching people. He has made many different projects: https://francisco.io/
 
 
 
