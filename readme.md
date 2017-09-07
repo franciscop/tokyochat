@@ -1,5 +1,5 @@
-# Real time chat in Javascript
-
+# Real time chat with Javascript
+Wi
 We are going to make a real time chat with Javascript in this free workshop. You will learn websockets and the basics of Node.js.
 
 You will receive a basic Node.js template and we will follow the project from there. We will then implement the front-end with simple CSS+HTML, and finally we will add the real time functionality with javascript, socket.io and jQuery.
