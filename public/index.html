@@ -1,19 +1,30 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Tokyo Chat</title>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <link rel="stylesheet" href="style.css"/>
-</head>
-<body>
+  <head>
+    <title>Tokyo Chat</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
   <main>
+    <header>
+      <div class="user-count">0</div>
+      <h1>Tokyo Chat</h1>
+    </header>
 
-    YOUR CODE HERE
+    <section class="chat"></section>
 
+    <form>
+      <input type="text" placeholder="Say something nice" />
+      <button>Send</button>
+    </form>
   </main>
 
-  <script src="https://unpkg.com/cookiesjs@1"></script>
+  <!-- Include jquery, cookies, socket.io (client-side) and your own code -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://unpkg.com/cookiesjs@1/cookies.min.js"></script>
   <script src="https://unpkg.com/socket.io-client@2/dist/socket.io.slim.js"></script>
   <script src="javascript.js"></script>
 </body>
