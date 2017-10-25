@@ -6,7 +6,7 @@ const updateCounter = ctx => {
   ctx.io.emit('count', Object.keys(ctx.io.sockets.sockets).length);
 };
 
-server({ port: 3001 }, [
+server([
   get('/', ctx => render('index.html')),
   socket('connect', updateCounter),
   socket('disconnect', updateCounter),
