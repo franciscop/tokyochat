@@ -1,20 +1,34 @@
+<!-- ./public/index.html -->
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Tokyo Chat</title>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <link rel="stylesheet" href="style.css"/>
-</head>
-<body>
-  <main>
+  <head>
+    <title>First website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
 
-    YOUR CODE HERE
+    <main>
+      <header>
+        <div class="user-count fa fa-user">0</div>
+        <h1>Tokyo Chat</h1>
+      </header>
 
-  </main>
+      <section class="chat"></section>
 
-  <script src="https://unpkg.com/cookiesjs@1"></script>
-  <script src="https://unpkg.com/socket.io-client@2/dist/socket.io.slim.js"></script>
-  <script src="javascript.js"></script>
-</body>
+      <form>
+        <input type="text" placeholder="Say something nice" />
+        <button>Send</button>
+      </form>
+    </main>
+
+
+    <!-- Include jquery, cookies, socket.io (client-side) and your own code -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://unpkg.com/cookie_js@1.2.2/cookie.min.js"></script>
+    <script src="https://unpkg.com/socket.io-client@2/dist/socket.io.slim.js"></script>
+    <script src="javascript.js"></script>
+  </body>
 </html>
